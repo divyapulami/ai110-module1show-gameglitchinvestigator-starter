@@ -29,9 +29,22 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
+
+This project is a Streamlit number guessing game where the player must guess a secret number within a limited number of attempts.
+
+During debugging I discovered several issues:
+- The hint logic was reversed (higher/lower messages were incorrect).
+- The game accepted numbers outside the allowed range.
+- The secret number type changed between string and integer on different attempts.
+- The New Game button did not reset the input field properly.
+
+I fixed these issues by correcting the comparison logic in `check_guess()`, adding input validation in `parse_guess()`, keeping the secret number consistently as an integer, and resetting the game state when starting a new game.
+
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+
+![Game Demo](Screenshots.png)
 
 ## 🚀 Stretch Features
 

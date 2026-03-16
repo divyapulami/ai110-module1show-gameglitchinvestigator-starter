@@ -44,7 +44,7 @@ I fixed these issues by correcting the comparison logic in `check_guess()`, addi
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
 
-![Game Demo](Screenshots.png)
+![Game Demo](Screenshot.png)
 
 ## 🚀 Stretch Features
 
